@@ -25,6 +25,11 @@ body {
     text-align: center;
   }
 
+ .canto-da-pagina {
+      float: right;
+      margin: 10px;
+    }
+
   .logo {
     float: left;
     margin-right: -90px;
