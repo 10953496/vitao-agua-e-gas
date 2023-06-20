@@ -48,6 +48,13 @@ body {
     margin: 10px;
   }
 
+  .canto-direito {
+    position: absolute;
+    bottom: -100;
+    right: 300px;
+    margin: 0px;
+  }
+
   .logo {
     float: left;
     margin-right: -90px;
