@@ -21,11 +21,11 @@ body {
     padding: 20px;
   }
 
-  .centralizado {
+  centralizado {
     text-align: center;
   }
 
- .canto-da-pagina {
+ canto-da-pagina {
       float: right;
       margin: 10px;
     }
