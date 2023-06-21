@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #01a0fc;
+  }
+
+  .imagem-arredondada {
+    border-radius: 50%;
+  }
+
+  body {
+    background: linear-gradient(to right, rgb(2, 172, 240), white, rgb(2, 172, 240));
+    background-size: 200% 100%;
+  }
+
+  @keyframes gradientTransition {
+    0% {
+      background-position: 100% 0%;
+    }
+    50% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+
+  header {
+    background-color: #000000;
+    padding: 20px;
+  }
+
+  footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .bg-dark.text-white.text-center.p-3 {
+    background-color: #343a40;
+    color: #fff; 
+    text-align: center;
+    padding: 0.75rem;
+  }
+
+  .centralizado {
+    text-align: center;
+  }
+
+  .canto-da-pagina {
+    position: absolute;
+    bottom: -100;
+    left: 10px;
+    margin: 0px;
+  }
+
+  .canto-direito {
+    position: absolute;
+    bottom: -100;
+    right: 300px;
+    margin: 0px;
+  }
+
+  .logo {
+    float: left;
+    margin-right: -120px;
+    margin-top: -35px;
+  }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    color: #ffffff;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #5f5f5f;
+  }
+  
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    color: #333
+  }
+  
+  .whatsapp-icon {
+    position: fixed;
+    top: 25px;
+    right: 40px;
+    font-size: 70px;
+    color: #25D366;
+    cursor: pointer;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  form {
+    width: 100px;
+    font-size: 220%;
+    transform: scale(2.2);
+    margin-top: 200px
+  }
+
+  p1 {
+    font-size: 59px;
+    position: absolute;
+    top: 160px;
+    left: 600px;
+    z-index: 9999;
+  }
+
+  .form-control {
+    width: 300px; 
+    font-size: 16px; 
+    margin-left: -103px;
+    margin-top: 20px
+  }
+
+  .btn-primary {
+    margin-left: 20px;
+  }
+
+  label[for="subject"] {
+    margin-left: -13px;
+  }
+
+  label[for="email"] {
+    margin-left: -5px;
+  }
+ 
